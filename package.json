@@ -1,0 +1,15 @@
+{
+  "name": "load-balancer-example",
+  "version": "1.0.0",
+  "description": "A Node.js project that implements a simple load balancer using Express and Axios to distribute incoming HTTP requests across multiple application servers.",
+  "scripts": {
+    "start": "npx concurrently \"node config.js\" \"node index.js\""
+  },
+  "dependencies": {
+    "axios": "^1.2.0",
+    "express": "^4.18.2",
+    "concurrently": "^7.6.0"
+  },
+  "author": "Manan Kansara",
+  "license": "ISC"
+}
